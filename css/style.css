@@ -1,0 +1,44 @@
+body{
+	background-image: url('/home/froggy/Programs/WebD/udemy-course/section-7/images/trex.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+header{
+	background-color: black;
+	margin: 100%;
+}
+h1{
+	text-align: center;
+	color: #874633;
+	font-style: monospace;
+	font-family: sans-serif;
+	border: solid;
+	border-color: black; 
+	font-size: 48px
+}
+.left-paragraph{
+	text-align: left;
+	color: grey;
+	font-style: monospace;
+	font-family: serif;
+	font-size: 16px;
+	padding-right: 50%;
+	margin-left: 20px
+}
+.left-image{
+	size: 300px 300px;
+	padding-right: 50%;
+	margin-left: 10%;
+	margin-top: 40px;
+}
+
+.left-heading{
+	margin-right: 55%;
+	text-align: center;
+	border: dotted;
+	border-color: black;
+	font-size: 22px;
+	color: #874633;
+
+
+}
