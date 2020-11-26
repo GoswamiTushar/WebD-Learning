@@ -3,10 +3,7 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
-header{
-	background-color: black;
-	margin: 100%;
-}
+
 h1{
 	text-align: center;
 	color: #874633;
@@ -16,29 +13,66 @@ h1{
 	border-color: black; 
 	font-size: 48px
 }
+
+em{
+	color: silver;
+}
+
+div{
+	display: flex;
+}
+
+li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .left-paragraph{
 	text-align: left;
 	color: grey;
 	font-style: monospace;
 	font-family: serif;
 	font-size: 16px;
-	padding-right: 50%;
-	margin-left: 20px
+	height: 100%;
+	width: 50%;
+	margin-left: 10px;
+	left: 0;
 }
+
 .left-image{
-	size: 300px 300px;
-	padding-right: 50%;
-	margin-left: 10%;
-	margin-top: 40px;
+	width: 300;
+	height: 400;
+	margin-left: 12%
 }
 
 .left-heading{
-	margin-right: 55%;
+	width: 50%;
 	text-align: center;
 	border: dotted;
 	border-color: black;
 	font-size: 22px;
 	color: #874633;
+}
 
-
+.right-heading{
+	height: 100%;
+	width: 50%;
+	right: 0;
+	z-index: 1;
+	text-align: center;
+	border: dotted;
+	border-color: black;
+	font-size: 22px;
+	color: #874633;
+}
+.right-paragraph{
+	text-align: left;
+	color: grey;
+	font-style: monospace;
+	font-family: serif;
+	font-size: 16px;
+	height: 100%;
+	width: 50%;
+	margin-left: 10px;
+	left: 0;
 }
